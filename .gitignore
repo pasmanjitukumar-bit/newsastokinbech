@@ -5,5 +5,9 @@ dist/
 !.env.example
 *.log
 product-preview.jpg
+checkout-preview.jpg
+thankyou-preview.jpg
+preview_*.png
+new-product-preview.png
 .DS_Store
 Thumbs.db

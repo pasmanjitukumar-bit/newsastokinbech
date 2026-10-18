@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="details.css">
+  <link rel="stylesheet" href="checkout.css">
 </head>
 <body>
   <div class="topbar"><div class="wrap"><span>नेपालभर डेलिभरी <b> · </b> रु. २,००० माथिको अर्डरमा निःशुल्क</span><span>सहयोग चाहियो? <a href="mailto:hello@sastokinbech.com">सम्पर्क गर्नुहोस् ↗</a></span></div></div>
@@ -23,7 +24,7 @@
     <section class="bottom-banner"><div><span class="eyebrow">सानो मूल्य, ठूलो खुसी</span><h2>आफ्नो स्टाइल, आफ्नै रोजाइ।</h2><p>हरेक दिनका लागि केही नयाँ खोज्नुहोस्।</p></div><a class="primary" href="#products">अफरहरू हेर्नुहोस् ↗</a></section>
   </main>
   <footer><div class="wrap"><a class="logo footer-logo" href="./">Sasto<span>KinBech</span></a><p>नेपालको आफ्नै अनलाइन किनमेल साथी।</p><small>© 2026 SastoKinBech · Demo store — सामान र अफरहरू उदाहरणका लागि हुन्।</small></div></footer>
-  <dialog id="cartDialog"><div class="dialog-head"><h2>मेरो Cart</h2><button id="closeCart" aria-label="बन्द गर्नुहोस्">×</button></div><div id="cartItems"></div><div id="cartTotal"></div><p class="demo-note">यो demo हो। अनलाइन अर्डर र भुक्तानी सेवा जोडिएको छैन।</p></dialog>
+  <dialog id="cartDialog"><div class="dialog-head"><h2>मेरो Cart</h2><button id="closeCart" aria-label="बन्द गर्नुहोस्">×</button></div><div id="cartItems"></div><div id="cartTotal"></div><a id="checkoutLink" class="primary checkout-link" href="?checkout=1" hidden>Checkout मा जानुहोस् ↗</a><p class="demo-note">यो demo हो। अनलाइन अर्डर र भुक्तानी सेवा जोडिएको छैन।</p></dialog>
   <dialog id="loginDialog"><div class="dialog-head"><h2>नमस्ते! 👋</h2><button id="closeLogin" aria-label="बन्द गर्नुहोस्">×</button></div><p>यो SastoKinBech को demo डिजाइन हो। Login सुविधा प्रयोग गर्न account सेवा जोड्नुपर्छ।</p><button class="primary" id="browse">किनमेल जारी राख्नुहोस् ↗</button></dialog>
-  <div id="toast" role="status"></div><script src="app.js"></script><script src="details.js"></script>
+  <div id="toast" role="status"></div><script src="app.js"></script><script src="details.js"></script><script src="checkout.js"></script><script src="thankyou.js"></script>
 </body></html>
