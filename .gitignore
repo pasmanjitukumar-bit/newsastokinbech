@@ -11,3 +11,5 @@ preview_*.png
 new-product-preview.png
 .DS_Store
 Thumbs.db
+.vercel/
+
