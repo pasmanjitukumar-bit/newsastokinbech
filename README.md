@@ -2,7 +2,7 @@
 
 Nepali storefront with product search, category filters, variant-aware cart, Cash On Delivery checkout, Google Sheets records, business order alerts and customer confirmation emails.
 
-Live website: https://newsastokinbech.vercel.app
+Live website: https://product.sastokinbech.com
 
 ## Run locally
 
